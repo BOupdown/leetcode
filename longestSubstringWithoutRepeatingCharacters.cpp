@@ -1,7 +1,4 @@
-/*
- * Given a string s, find the length of the longest substring without repeating characters.
- */
-
+//      https://leetcode.com/problems/longest-substring-without-repeating-characters/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -36,13 +33,3 @@ public:
         return max;
     }
 };
-
-int main()
-{
-    Solution solution;
-    string s = "pwwkew";
-
-    cout << solution.lengthOfLongestSubstring(s) << endl;
-
-    return 0;
-}
