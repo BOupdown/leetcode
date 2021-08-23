@@ -1,3 +1,4 @@
+//      https://leetcode.com/problems/container-with-most-water/
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -25,10 +26,3 @@ public:
         return max;
     }
 };
-
-int main()
-{
-    vector<int> height = {1,8,6,2,5,4,8,3,7};
-    Solution solution;
-    printf("%d", solution.maxArea(height));
-}
