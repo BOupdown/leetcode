@@ -1,7 +1,4 @@
-/*
- *  Given a string s, return the longest palindromic substring in s.
- */
-
+//      https://leetcode.com/problems/longest-palindromic-substring/
 #include <iostream>
 
 using namespace std;
@@ -45,13 +42,3 @@ public:
         return maxstr;
     }
 };
-
-int main()
-{
-    string s = "babad";
-    Solution solution;
-
-    cout << solution.longestPalindrome(s) << endl;
-
-    return 0;
-}
