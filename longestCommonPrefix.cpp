@@ -1,3 +1,4 @@
+//      https://leetcode.com/problems/longest-common-prefix/
 #include <iostream>
 #include <vector>
 #include <string>
@@ -35,10 +36,3 @@ public:
         return strs[0].substr(0, count);
     }
 };
-
-int main()
-{
-    Solution solution;
-    vector<string> strs = {"flower", "flow", "flight"};
-    cout << solution.longestCommonPrefix(strs) << endl;
-}
