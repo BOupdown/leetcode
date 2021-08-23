@@ -1,3 +1,4 @@
+//      https://leetcode.com/problems/two-sum/
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -53,13 +54,3 @@ public:
         return res;
     }
 };
-
-int main()
-{
-    Solution solution;
-    vector<int> nums = {-1, 0, 1, 2, -1, -4};
-    vector<vector<int>> result = solution.threeSum(nums);
-
-
-    return 0;
-}
