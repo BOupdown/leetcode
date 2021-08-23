@@ -1,3 +1,4 @@
+//      https://leetcode.com/problems/reverse-integer/
 #include <iostream>
 
 using namespace std;
@@ -20,13 +21,3 @@ public:
             return 0;
     }
 };
-
-int main()
-{
-    Solution solution;
-    int number = 651654852;
-
-    cout << solution.reverse(number) << endl;
-
-    return 0;
-}
